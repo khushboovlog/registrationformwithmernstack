@@ -1,0 +1,56 @@
+
+/* ===== FOOTER ===== */
+.footer {
+  width: 100%;
+  background: #f1f1f1;
+  padding: 12px 0;
+  text-align: center;
+  box-shadow: 0 -1px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== TEXT ===== */
+.footer p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+}
+
+.footer .heart {
+  color: red;
+}
+
+.footer .name {
+  color: red;
+  font-weight: 600;
+}
+
+/* ===== SOCIAL ICONS ===== */
+.socials {
+  margin-top: 8px;
+}
+
+.socials a {
+  margin: 0 10px;
+  font-size: 20px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.socials a:hover {
+  color: #0077b5; /* LinkedIn blue */
+  transform: scale(1.2);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 480px) {
+  .footer p {
+    font-size: 14px;
+  }
+
+  .socials a {
+    font-size: 18px;
+    margin: 0 8px;
+  }
+}
